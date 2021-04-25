@@ -1,3 +1,25 @@
+# Breakfast Time - Tic Tac Toe Breakfast Style
+
+## Description:
+After following along with [codeSTACKr's Tic Tac Toe Game with Hooks](https://youtu.be/08r9mDQvXpU) tutorial, I wanted to try something a little different. To make the game of Tic Tac Toe a little more exciting, you can now play as bacon vs egg, putting a breakfast twist on a favorite childhood game. Enjoy!
+
+## How to Play;
+Player one is bacon
+Player two is eggs
+Each player takes turns selecting a square
+The goal is to get three bacon in a row (if you are player one) or three eggs in a row (if you are player two)
+The first player to get three in a row is the winner
+You can select "Start New Game" to go back to the beginning and start over
+
+## Decision Making:
+
+## Credits:
+Bacon : <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+Egg : <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
