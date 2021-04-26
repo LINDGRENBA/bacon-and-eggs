@@ -1,5 +1,8 @@
 # Breakfast Time - Tic Tac Toe Breakfast Style
 
+## Demo :
+![Demo](./src/images/demo.gif)
+
 ## Description:
 After following along with [codeSTACKr's Tic Tac Toe Game with Hooks](https://youtu.be/08r9mDQvXpU) tutorial, I wanted to try something a little different. To make the game of Tic Tac Toe a little more exciting, you can now play as bacon vs egg, putting a breakfast twist on a favorite childhood game. Enjoy!
 
