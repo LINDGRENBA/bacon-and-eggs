@@ -22,13 +22,19 @@ const Game = () => {
         setBaconIsNext(!baconIsNext);
     }
 
+    const startNewGame = () => {
+        setHistory([Array(9).fill(null)]);
+        setStepNumber(0);
+        setBaconIsNext(true);
+    }
+
 
     return (
         <React.Fragment>
             <h1>Bacon and Eggs - Tic Tac Toe</h1>
             <Board squares={history[stepNumber]} onClick={handleClick} />
             <h3>{ winner ? "Winner: " + winner : "Next Player: " + baconEggs }</h3>
-            <button className="restart">Start New Game</button>
+            <button className="restart" onClick={startNewGame}>Start New Game</button>
         </React.Fragment>
     )
 
