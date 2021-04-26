@@ -12,6 +12,9 @@ The first player to get three in a row is the winner
 You can select "Start New Game" to go back to the beginning and start over
 
 ## Decision Making:
+* I didn't feel that the buttons for navigating back to previous moves was essential. Instead I decided to just have one button to restart the game.
+* I felt that the text over the images was distracting, so I hid the text.
+* I would like to add a tally to keep track of how many games bacon has won vs how many times egg has won.
 
 ## Credits:
 Bacon : <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
