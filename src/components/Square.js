@@ -5,7 +5,9 @@ const Square = ({ value, onClick }) => {
 
     return (
         <button className={style} onClick={onClick}>
-            {value}
+            <span class="hidden">
+                {value}
+            </span>
         </button>
     )
 };
