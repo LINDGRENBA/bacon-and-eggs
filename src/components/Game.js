@@ -28,6 +28,7 @@ const Game = () => {
             <h1>Bacon and Eggs - Tic Tac Toe</h1>
             <Board squares={history[stepNumber]} onClick={handleClick} />
             <h3>{ winner ? "Winner: " + winner : "Next Player: " + baconEggs }</h3>
+            <button className="restart">Start New Game</button>
         </React.Fragment>
     )
 

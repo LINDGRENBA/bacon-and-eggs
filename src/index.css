@@ -9,10 +9,15 @@ body {
   justify-content: center;
   min-height: 100vh;
   padding: 2rem;
+  text-transform: uppercase;
 }
 
 h1 {
   margin: 2rem;
+}
+
+h1, h3 {
+  color: #e00065;
 }
 
 .board {
@@ -23,6 +28,7 @@ h1 {
   height: 500px;
   display: grid;
   grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+  margin-bottom: 2rem;
   /* grid-gap: 1rem;  */
 }
 
@@ -44,4 +50,22 @@ h1 {
   background-image: url(./images/egg.png);
   background-size: contain;
   background-repeat: no-repeat;
+}
+
+.restart {
+  padding: 0.7rem;
+  margin: 2rem auto;
+  border: 0.2rem solid #ffbe0b;
+  box-shadow: 1px 3px 3px #b80050;
+  border-radius: 5000px;
+  background: #ff006e;
+  color: #ffbe0b;
+  text-transform: uppercase;
+}
+
+.restart:hover {
+  background: #ffbe0b;
+  box-shadow: 1px 3px 3px #3d001b;
+  border: 0.2rem solid #ff006e;
+  color: #ff006e;
 }
